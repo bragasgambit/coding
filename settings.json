@@ -4,7 +4,11 @@
   "editor.fontSize": 14,
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
 
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
@@ -21,32 +25,34 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.colorCustomizations": {
-  "[GitHub Dark Default]": {
-    "activityBar.background": "#000",
-    "editor.background": "#000",
-    "editor.lineHighlightBackground": "#0000",
-    "editor.lineHighlightBorder": "#0000",
-    "editorWhitespace.foreground": "#59A5FC",
-    "panel.background": "#000",
-    "sideBar.background": "#000",
-    "terminal.background": "#000",
-    "terminal.foreground": "#fff"
+    "[GitHub Dark Default]": {
+      "activityBar.background": "#000",
+      "editor.background": "#000",
+      "editor.lineHighlightBackground": "#0000",
+      "editor.lineHighlightBorder": "#0000",
+      "editorWhitespace.foreground": "#59A5FC",
+      "panel.background": "#000",
+      "sideBar.background": "#000",
+      "terminal.background": "#000",
+      "terminal.foreground": "#fff"
+    },
+    "[GitHub Light Default]": {
+      "activityBar.background": "#fff",
+      "editor.background": "#fff",
+      "editor.lineHighlightBackground": "#fff0",
+      "editor.lineHighlightBorder": "#fff0",
+      "editorWhitespace.foreground": "#1167D7",
+      "panel.background": "#fff",
+      "sideBar.background": "#fff",
+      "terminal.background": "#fff",
+      "terminal.foreground": "#000"
+    }
   },
-  "[GitHub Light Default]": {
-    "activityBar.background": "#fff",
-    "editor.background": "#fff",
-    "editor.lineHighlightBackground": "#fff0",
-    "editor.lineHighlightBorder": "#fff0",
-    "editorWhitespace.foreground": "#1167D7",
-    "panel.background": "#fff",
-    "sideBar.background": "#fff",
-    "terminal.background": "#fff",
-    "terminal.foreground": "#000"
-  }},
   "explorer.confirmDragAndDrop": false,
   "accessibility.signals.terminalBell": {
-      "sound": "on"
+    "sound": "on"
   },
   "terminal.integrated.enableVisualBell": true,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "cSpell.userWords": ["esbenp"]
 }
