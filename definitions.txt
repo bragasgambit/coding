@@ -19,17 +19,17 @@ Universal
     flatpak  - Independent and universal app distributor (https://flatpak.org/ && https://flathub.org)
     snap     - universal bundle/package (https://snapcraft.io/) made by canonical
 
+Langs
+    JavaScript
+        Node.js  - Runtime environment, executes JS code outside web browser
+        npm      - "Node Package Manager"
+        yarn     - "Yet another resource navigator" package manager
 
-JavaScript
-    Node.js  - Runtime environment, executes JS code outside web browser
-    npm      - "Node Package Manager"
-    yarn     - "Yet another resource navigator" package manager
+    Python
+        pip      - Package installer for Python (https://pypi.org/project/pip/)
 
-Python
-    pip      - Package installer for Python (https://pypi.org/project/pip/)
-
-Rust
-    cargo    - Rust package manager (https://crates.io/ & https://doc.rust-lang.org/cargo/index.html)
+    Rust
+        cargo    - Rust package manager (https://crates.io/ & https://doc.rust-lang.org/cargo/index.html)
 
 
 
