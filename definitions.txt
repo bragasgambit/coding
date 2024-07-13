@@ -23,6 +23,7 @@ Langs
     JavaScript
         Node.js  - Runtime environment, executes JS code outside web browser
         npm      - "Node Package Manager"
+        ejs      - "Embedded  JavaScript Templates", is a templating language that generates HTML markup using JavaScript
         yarn     - "Yet another resource navigator" package manager
 
     Python
