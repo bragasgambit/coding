@@ -1,0 +1,44 @@
+asdf     - version manager (https://asdf-vm.com/)
+
+Arch Linux
+    pacman   - Arch Linux package manager (https://wiki.archlinux.org/title/Pacman)
+
+Debian
+    dpkg     - low-level "Debian package" manager
+    apt      - "advanced package tool" for Debian-like distros (high-level)
+
+MacOS
+    brew     - Homebrew MacOS - package manager (https://brew.sh/)
+
+Red Hat
+    dnf      - "Dandified YUM" successor of yum high-level (manager of .rpm based distros)
+    rpm      - low-level "Red Hat package manager"
+    yum      - "Yellow-Dog Updater Modifier" (outdated)
+
+Universal
+    flatpak  - Independent and universal app distributor (https://flatpak.org/ && https://flathub.org)
+    snap     - universal bundle/package (https://snapcraft.io/) made by canonical
+
+
+JavaScript
+    Node.js  - Runtime environment, executes JS code outside web browser
+    npm      - "Node Package Manager"
+    yarn     - "Yet another resource navigator" package manager
+
+Python
+    pip      - Package installer for Python (https://pypi.org/project/pip/)
+
+Rust
+    cargo    - Rust package manager (https://crates.io/ & https://doc.rust-lang.org/cargo/index.html)
+
+
+
+API          - Application programming interface
+apt          - advanced package tool
+Bash         - Bourne-again SHell
+CLI          - Command-line interface aka terminal
+dependencies - a piece of code that is required to make a project work properly, something that a project depends on
+GNU          - GNU's not Unix (GNU is the first Open-Source Software)
+GUI          - Graphical user interface
+OS           - Operating System
+sudo         - "super user do!"
