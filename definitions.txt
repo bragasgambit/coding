@@ -1,23 +1,23 @@
-asdf     - version manager (https://asdf-vm.com/)
+asdf             - version manager (https://asdf-vm.com/)
 
 Arch Linux
-    pacman   - Arch Linux package manager (https://wiki.archlinux.org/title/Pacman)
+    pacman       - Arch Linux package manager (https://wiki.archlinux.org/title/Pacman)
 
 Debian
-    dpkg     - low-level "Debian package" manager
-    apt      - "advanced package tool" for Debian-like distros (high-level)
+    dpkg         - low-level "Debian package" manager
+    apt          - "advanced package tool" for Debian-like distros (high-level)
 
 MacOS
-    brew     - Homebrew MacOS - package manager (https://brew.sh/)
+    brew         - Homebrew MacOS - package manager (https://brew.sh/)
 
 Red Hat
-    dnf      - "Dandified YUM" successor of yum high-level (manager of .rpm based distros)
-    rpm      - low-level "Red Hat package manager"
-    yum      - "Yellow-Dog Updater Modifier" (outdated)
+    dnf          - "Dandified YUM" successor of yum high-level (manager of .rpm based distros)
+    rpm          - low-level "Red Hat package manager"
+    yum          - "Yellow-Dog Updater Modifier" (outdated)
 
 Universal
-    flatpak  - Independent and universal app distributor (https://flatpak.org/ && https://flathub.org)
-    snap     - universal bundle/package (https://snapcraft.io/) made by canonical
+    flatpak      - Independent and universal app distributor (https://flatpak.org/ && https://flathub.org)
+    snap         - universal bundle/package (https://snapcraft.io/) made by canonical
 
 Langs
     JavaScript
