@@ -4,9 +4,19 @@
   "editor.fontSize": 14,
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
 
@@ -52,7 +62,14 @@
   "accessibility.signals.terminalBell": {
     "sound": "on"
   },
+  "python.terminal.activateEnvironment": false,
   "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "git.confirmSync": false,
-  "cSpell.userWords": ["esbenp"]
+  "cSpell.userWords": ["esbenp", "Luhn's", "Rustacean"],
+  "redhat.telemetry.enabled": true,
+  "rust-analyzer.trace.extension": true,
+  "rust-analyzer.trace.server": "verbose",
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.currentLine.enabled": false
 }

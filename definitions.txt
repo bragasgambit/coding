@@ -43,3 +43,8 @@ GNU          - GNU's not Unix (GNU is the first Open-Source Software)
 GUI          - Graphical user interface
 OS           - Operating System
 sudo         - "super user do!"
+rc           - run commands
+    .bashrc
+    .vimrc
+    .npmrc
+    .nvmrc
