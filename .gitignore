@@ -1,2 +1,3 @@
 *.pdf
 rust/target/
+docker/
