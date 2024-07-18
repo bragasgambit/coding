@@ -28,22 +28,61 @@ Langs
 
     Python
         pip      - Package installer for Python (https://pypi.org/project/pip/)
-
+        uv       - Extremally package installer and resolver written in Rust (https://github.com/astral-sh/uv)
     Rust
         cargo    - Rust package manager (https://crates.io/ & https://doc.rust-lang.org/cargo/index.html)
 
 
 
-API          - Application programming interface
-apt          - advanced package tool
-Bash         - Bourne-again SHell
-CLI          - Command-line interface aka terminal
-dependencies - a piece of code that is required to make a project work properly, something that a project depends on
-GNU          - GNU's not Unix (GNU is the first Open-Source Software)
-GUI          - Graphical user interface
-OS           - Operating System
-sudo         - "super user do!"
-rc           - run commands
+Abstraction Principle           - Divide into layers to avoid duplications and facilitate humans life (programming langs)
+algorithm                       - set of instructions (ie code) that solves a problem/task with the knowledge of data structures
+API                             - Application programming interface
+apt                             - advanced package tool
+Bash                            - Bourne-again SHell
+Call Stack                      - A place in the memory where a programming language pushes frames
+CLI                             - Command-line interface aka terminal
+CPU                             - Central Processing Unit
+    Threads                     - Takes the physical CPU core and breaks into virtual cores that allow it to run code simultaneously
+
+data type                       - string, boolean, bitmap, bitfield, hash/map/dictionary, list, set, sorted set, geospatial, hyperlog, stream, ...
+data structures                 - way to organize data
+    array/list
+    linked list
+    stack
+    queue
+    hash/map/dictionary
+    tree
+    graph
+        node                    - is where data is
+        edge                    - relationship between data points
+
+dependencies                    - a piece of code that is required to make a project work properly, something that a project depends on
+DNS                             - Domain Name Service
+Garbage collector               - Automatically allocates and deallocates memory when a object is no longer referenced in the program
+GNU                             - GNU's not Unix (GNU is the first Open-Source Software)
+GUI                             - Graphical user interface
+HTTP                            - HyperText Transfer Protocol --Data transfer protocol
+iterable                        - something that can be looped over
+Langs                           - programming languages
+    Compiled                    - uses a compiler to convert the program into machine code generating an .exe file; eg C, Rust, ...
+    Interpreted                 - interpreter executes each line of code one by one; eg Python, JavaScript, ...
+    Dynamically typed lang      - do not need to specify to the program exactly which data type is assigned to a variable (eg python)
+    Statically typed lang       - need to specify exactly the data type of a variable in your code when its defined
+    Parallelism                 - code written that executes on two different threads at the same time (eg Fortran, Haskell, Erlang)
+    Concurrency                 - single-threaded langs implements event loops or co-routines that can pause or delay the normal execution of code to handle multiple jobs on a sigle thread
+
+Mainframe                       - Bulk data processing computer
+OS                              - Operating System
+recursion                       - when functions calls themselves
+SHell                           - Program that exposes the OS to the end user
+Stack Overflow                  - when a function keeps recursing (calling itself) and exceeds the maximum depth of the memory
+SSH                             - Secure SHell Protocol, connects to remote computers
+SSL                             - Secure Sockets Layer --encryption of Packets
+TCP Handshake                   - Transmission Control Protocol --allows the transference of encrypted data in Packets
+URL                             - Uniform Resource Locator
+
+sudo                            - "super user do!"
+rc                              - run commands
     .bashrc
     .vimrc
     .npmrc
