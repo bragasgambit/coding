@@ -1,0 +1,19 @@
+Install https://rustup.rs/
+Install https://crates.io/crates/cargo-edit/
+
+Creating a new project:
+$ cargo new <dir_name>
+
+This will create a Cargo.toml (similar to package.json for JS projects) and a src/main.rs
+If not specified, cargo will assume that the project is a binary. By convention, src/main.rs is a entrypoint for a binary (just like index.js for JS projects)
+
+
+To run a binary:
+project_root$ cargo run
+
+To compile:
+$ rustc <file_name.rs>
+
+To execute:
+$ ./file_name
+
