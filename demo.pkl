@@ -1,0 +1,9 @@
+module birds
+
+hidden species = "owl"
+
+name = species.toUpperCase()
+
+function fib(n: Int): Int = if (n < 2) n else fib(n - 1) + fib(n - 2)
+
+// Pkl is a open source product from Apple that generates static configuration format to .json, .yaml, .plist, .properties
